@@ -1,10 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to Dataherald AI's enterprise documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Dataherald AI** (/lu'make/) is an enterprise NL-to-SQL tool that serves as
+your data team's best friend. By reducing the overhead of ad-hoc questions
+from your business users, the tool uncaps the productivity of your data team.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
