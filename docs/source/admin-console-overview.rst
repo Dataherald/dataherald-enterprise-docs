@@ -29,7 +29,7 @@ Once you click on a row in the displayed table, the following view opens up.
 #. **Header**: Question asked, User that asked it, and the Time of the request
 #. **Slack response panel**: Contains the NL response generated to the user's question.
 #. **SQL text editor**: Generated SQL query, and a Process sub-tab outlining the logic of the AI agent
-#. **Results panel**: Result of the SQL query, along with natural language response generated
+#. **Results panel**: Result of the SQL query
 
 .. _databases-tab:
 
