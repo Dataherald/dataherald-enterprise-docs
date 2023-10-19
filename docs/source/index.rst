@@ -5,8 +5,8 @@ Welcome to Dataherald AI's enterprise documentation!
 your data team's best friend. By reducing the overhead of ad-hoc questions
 from your business users, the tool uncaps the productivity of your data team.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`admin-console-overview` section for further information, including
+the :ref:`queries-tab`.
 
 .. note::
 
@@ -17,5 +17,5 @@ Contents
 
 .. toctree::
 
-   usage
+   admin-console-overview
    api
