@@ -1,6 +1,8 @@
 Admin Console Overview
 ======================
 
+In the admin console, you will see the following tabs: **Queries**, **Databases**, and **Golden SQL**. This document walks through the layout and purpose of each tab.
+
 .. _queries-tab:
 
 Queries Tab
@@ -39,9 +41,9 @@ This tab displays information about the database connection that Dataherald AI i
   :width: 800
   :alt: Add alternative text
 
-.. _golden-queries-tab:
+.. _golden-sql-tab:
 
-Golden Queries Tab
+Golden SQL Tab
 ------------------
 All of the questions with verified, or “golden”, SQL queries are shown in this tab. For each verified query, the tab displays:
 
