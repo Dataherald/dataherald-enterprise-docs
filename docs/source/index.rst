@@ -1,9 +1,12 @@
 Welcome to Dataherald AI's enterprise documentation!
 ====================================================
 
-**Dataherald AI** is an enterprise NL-to-SQL tool that serves as your data team's best friend. By reducing the overhead of ad-hoc questions from your business users, the tool uncaps the productivity of your data team.
+**Dataherald AI** is an enterprise NL-to-SQL tool that serves as your data 
+team's best friend. By reducing the overhead of ad-hoc questions from your 
+business users, the tool uncaps the productivity of your data team.
 
-Check out the :doc:`admin-console-overview` section for further information, or check out :doc:`admin-processes`.
+Check out the :doc:`admin-console-overview` section for further information, or 
+check out :doc:`admin-processes`.
 
 .. note::
 

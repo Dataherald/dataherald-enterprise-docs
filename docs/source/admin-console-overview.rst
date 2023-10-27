@@ -1,13 +1,16 @@
 Admin Console Overview
 ======================
 
-In the admin console, you will see the following tabs: **Queries**, **Databases**, and **Golden SQL**. This document walks through the layout and purpose of each tab.
+In the admin console, you will see the following tabs: **Queries**,
+ **Databases**, and **Golden SQL**. This document walks through the layout and 
+ purpose of each tab.
 
 .. _queries-tab:
 
 Queries Tab
 -----------
-This UI shows all of the questions asked through the Slackbot. For each question, the tab displays:
+This UI shows all of the questions asked through the Slackbot. For each 
+question, the tab displays:
 
 * **Query ID**: The identifier for the question
 * **User**: The name of the person who asked the question
@@ -40,6 +43,8 @@ This tab displays information about the database connection that Dataherald AI i
 .. image:: images/databases-tab.png
   :width: 800
   :alt: Add alternative text
+
+To add a database connection, follow the instructions in :doc:`add-database-connection`.
 
 .. _golden-sql-tab:
 
