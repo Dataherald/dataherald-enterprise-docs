@@ -44,7 +44,7 @@ This tab displays information about the database connection that Dataherald AI i
   :width: 800
   :alt: Add alternative text
 
-To add a database connection, follow the instructions in :doc:`add-database-connection`.
+To add a database connection, follow the instructions in :doc:`database-processes`.
 
 .. _golden-sql-tab:
 
