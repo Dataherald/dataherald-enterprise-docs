@@ -1,8 +1,5 @@
-Database Processes
-==================
-
-When a data administrator first logs in to the admin console, they'll find the 
-databases tab empty with a button to "Add a Database". Further instructions...
+Add Business Context
+====================
 
 Data administrators are responsible for providing relevant context to the AI 
 tool, such as:
@@ -32,6 +29,11 @@ quickly and effectively than golden records. To add these instructions:
 #. Add or update the instructions. Add each separate instruction on its own line.
 #. Click on "Save". After a few seconds, the following message should appear: *Database instructions updated*
 
+.. image:: images/add-database-instructions.png
+  :width: 400
+  :align: center
+  :alt: Add alternative text
+
 .. _table-descriptions:
 
 Table descriptions
@@ -51,6 +53,11 @@ To add or update a table description:
 #. Add or update the table description.
 #. Click on "Save". After a few seconds, the following message should appear: *<table> description updated*
 
+.. image:: images/add-table-description.png
+  :width: 400
+  :align: center
+  :alt: Add alternative text
+
 .. _column-descriptions:
 
 Column descriptions
@@ -63,9 +70,18 @@ answering certain questions. Below are a few examples:
 * **customer_id column**: Identifier used as primary key for our customers. Random 16-character alphanumeric code, should be used to join with the **org.sales** table.
 * **cost column**: The cost of the item per unit. Should be multiplied by the **quantity** column to get a total cost value.
 
+The view optionally also identifies other metadata about the column. For 
+example, some columns are identified as categorical. In those situations, the 
+view will include that detection, along with a list of values from that column.
+
 To add or update a column description:
 
 #. Click on the column name in the :ref:`databases-tab`. A side-tab titled "Add Text Description" will pop up on the right.
 #. Click on the "Edit" button. The text box will now be editable.
 #. Add or update the column description.
 #. Click on "Save". After a few seconds, the following message should appear: *<column> description updated*
+
+.. image:: images/add-column-description.png
+  :width: 400
+  :align: center
+  :alt: Add alternative text

@@ -7,6 +7,8 @@ manage the use of the Dataherald AI tool. Here, they can:
 
 .. toctree::
 
-   iam
-   database-processes
-   golden-sqls
+   manage-users
+   add-database
+   add-business-context
+   add-golden-sqls
+   validate-queries

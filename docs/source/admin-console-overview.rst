@@ -1,9 +1,9 @@
 Admin Console Overview
 ======================
 
-In the admin console, you will see the following tabs: **Queries**,
- **Databases**, and **Golden SQL**. This document walks through the layout and 
- purpose of each tab.
+In the admin console, you will see the following tabs: **Queries**, 
+**Databases**, and **Golden SQL**. This document walks through the layout and 
+purpose of each tab.
 
 .. _queries-tab:
 
@@ -27,6 +27,7 @@ Once you click on a row in the displayed table, the following view opens up.
 
 .. image:: images/query-view.png
   :width: 800
+  :align: center
   :alt: Add alternative text
 
 #. **Header**: Question asked, User that asked it, and the Time of the request
@@ -42,9 +43,10 @@ This tab displays information about the database connection that Dataherald AI i
 
 .. image:: images/databases-tab.png
   :width: 800
+  :align: center
   :alt: Add alternative text
 
-To add a database connection, follow the instructions in :doc:`database-processes`.
+To add a database connection, follow the instructions in :doc:`add-database`.
 
 .. _golden-sql-tab:
 
@@ -60,4 +62,5 @@ All of the questions with verified, or “golden”, SQL queries are shown in th
 
 .. image:: images/golden-sql-tab.png
   :width: 800
+  :align: center
   :alt: Add alternative text

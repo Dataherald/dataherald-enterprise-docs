@@ -1,5 +1,5 @@
-IAM Control
-===========
+Manage Users
+============
 
 Through the admin console, app administrators can access organization 
 settings by doing the following:
