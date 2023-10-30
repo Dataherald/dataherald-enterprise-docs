@@ -1,5 +1,5 @@
-Golden SQL Processes
-====================
+Validate User Queries
+=====================
 
 Golden SQLs (or golden queries) are used by the AI model to generate more 
 accurate SQL queries in response to questions asked by users. Generally, the 
@@ -7,40 +7,10 @@ more golden queries provided, the better the tool gets at answering questions
 in one shot.
 
 Golden queries can be added in two different ways: admins can 
-:ref:`add-queries-manually` or :ref:`validate-user-queries`.
+:doc:`add-golden-sqls` or follow the below steps to validate user queries.
 
-.. _add-queries-manually:
-
-Add Golden Queries Manually
----------------------------
-
-Currently, to add Golden SQL queries, data admins will need to save them as 
-*natural language <> SQL query* pairs in one of the following formats: .jsonl, 
-.json, .csv, .xls, .xlsx. The following is an example of a JSON file with 
-Golden SQLs.
-
-.. code-block:: JSON
-
-  { 
-      "golden_records": [
-          {
-            "question": "<insert natural language question here>",
-            "sql_query": "SELECT * FROM table_name;"
-          },
-          {
-            "question": "<insert natural language question here>",
-            "sql_query": "SELECT * FROM table_name;"
-          }
-      ]
-  }
-
-For now, data admins can send this file over to their Dataherald data support 
-team.
-
-.. _validate-user-queries:
-
-Validate User Queries
----------------------
+Steps
+-----
 
 When users ask questions to the Dataherald AI app through Slack, the question 
 is captured in the admin console and queued for review by a data admin. Once 
@@ -58,3 +28,8 @@ results in the future.
    * After running the query, the natural language response generated will automatically appear in the **Slack response panel**.
 
 #. Once the data admin is satisfied with the query and response, the data admin can Mark as Verified and click on “Save”. This will save the query as a Golden Query and will be used to improve the quality of future generated queries. A response will be sent to the user who asked the question through the Slackbot.
+
+.. image:: images/validate-query.png
+  :width: 800
+  :align: center
+  :alt: Add alternative text

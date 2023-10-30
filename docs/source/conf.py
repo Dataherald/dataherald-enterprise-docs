@@ -2,11 +2,12 @@
 
 # -- Project information
 
-project = 'Dataherald Enterprise'
+project = 'Dataherald Enterprise Docs'
 copyright = "2023, Dataherald"
 author = "Dataherald"
 release = "main"
 version = '0.0.1'
+html_title = project + ' v' + version
 
 # -- General configuration
 
